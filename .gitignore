@@ -7,6 +7,8 @@
 
 # testing
 /coverage
+.pytest_cache
+**__pycache__/
 
 # production
 /build
@@ -25,3 +27,6 @@ yarn-error.log*
 # local env file and virtual environment folder
 /.venv
 .env
+
+# db related files
+db.sqlite3
